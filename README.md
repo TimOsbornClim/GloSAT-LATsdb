@@ -12,7 +12,7 @@ This station database was developed from the CRUTEM5 station database used for t
 
 GloSAT LATsdb uses the same two-digit Source Codes that were used by CRUTEM5.0:
 
-- Text format source-codes/crutem2digit_sourcecodes.txt
+- Text format [source-codes/crutem2digit_sourcecodes.txt]
 - CSV format https://github.com/TimOsbornClim/GloSAT-LATsdb/blob/main/crutem2digit_sourcecodes.csv
 - TSV format https://github.com/TimOsbornClim/GloSAT-LATsdb/blob/main/crutem2digit_sourcecodes.tsv
 
