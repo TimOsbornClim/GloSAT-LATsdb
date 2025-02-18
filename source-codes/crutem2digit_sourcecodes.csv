@@ -5,7 +5,7 @@
 "Only an overall source code is given for each station, which indicates the dominant source.","","","","","","","","",""
 "For some stations, all values will have come from that single source.","","","","","","","","",""
 "For other stations, values will have come from multiple sources, and the overall source code just indicates the dominant source.","","","","","","","","",""
-","","","","","","","","",""
+"","","","","","","","","",""
 "For each source, a homogeneity indicator is given, together with approximate start and end years of the period to which homogenisation may have been applied (in some cases this may be unknown or too complex to express as a simple start and end year), and any further comments.","","","","","","","","",""
 "","","","","","","","","",""
 "Homogeneity indicators:","","","","","","","","",""
