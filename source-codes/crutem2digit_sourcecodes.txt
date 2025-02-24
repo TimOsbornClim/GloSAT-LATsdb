@@ -1,12 +1,12 @@
-Table of Source Codes used in CRUTEM station database
+Table of Data Source Codes used in CRUTEM station database
 
-This table corresponds to the two-digit source codes are used in version CRUTEM.5.0.0.0 and all earlier versions.
+This table corresponds to the two-digit data source codes used in version CRUTEM.5.0.0.0 and related versions/datasets (e.g. GloSAT LATsdb v1.0.0.0).
 
-Only an overall source code is given for each station, which indicates the dominant source.
-For some stations, all values will have come from that single source.
-For other stations, values will have come from multiple sources, and the overall source code just indicates the dominant source.
+Only an overall data source code is given for each station, which indicates the dominant data source.
+For some stations, all values will have come from that single data source.
+For other stations, values will have come from multiple data sources, and the overall data source code just indicates the dominant source.
 
-For each source, a homogeneity indicator is given, together with approximate start and end years of the period to which homogenisation may have been applied (in some cases this may be unknown or too complex to express as a simple start and end year), and any further comments.
+For each data source, we conducted a broad-brush assessment of whether we judge that the data provider carried out a homogeneity assessment (and possibly applied adjustments to reduce inhomogeneities). Based on this, we assigned one of five homogeneity indicators to each data source:
 
 Homogeneity indicators:
 HOM00=homogeneity has not been assessed or is unknown
@@ -14,6 +14,8 @@ HOM01=homogeneity not assessed, but data comes from a reliable source (e.g. an N
 HOM02=homogeneity assessed and inhomogeneities corrected at source (by NMS or a regional effort in e.g. Nordic countries, China etc.) but method details were not available to us
 HOM03=homogeneity assessed and inhomogeneities corrected at source via documented methods
 HOM04=homogeneity assessed and inhomogeneities corrected by CRU using documented methods
+
+Alongside the homogeneity indicator, the approximate start and end years of the period to which homogenisation may have been applied (in some cases this may be unknown or too complex to express as a simple start and end year) and any further comments are provided.
 
 
 Source code table
