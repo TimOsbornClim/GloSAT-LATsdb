@@ -1,24 +1,4 @@
-Table of Source Codes used in CRUTEM station database									
-									
-This table corresponds to the two-digit source codes are used in version CRUTEM.5.0.0.0 and all earlier versions.									
-									
-"Only an overall source code is given for each station, which indicates the dominant source."									
-"For some stations, all values will have come from that single source."									
-"For other stations, values will have come from multiple sources, and the overall source code just indicates the dominant source."									
-									
-"For each source, a homogeneity indicator is given, together with approximate start and end years of the period to which homogenisation may have been applied (in some cases this may be unknown or too complex to express as a simple start and end year), and any further comments."									
-									
-Homogeneity indicators:									
-HOM00=homogeneity has not been assessed or is unknown									
-"HOM01=homogeneity not assessed, but data comes from a reliable source (e.g. an NMS or WWR) that probably checked for obvious problems (in the sense that they wouldn't have provided series which had obviously problems)."									
-"HOM02=homogeneity assessed and inhomogeneities corrected at source (by NMS or a regional effort in e.g. Nordic countries, China etc.) but method details were not available to us"									
-HOM03=homogeneity assessed and inhomogeneities corrected at source via documented methods									
-HOM04=homogeneity assessed and inhomogeneities corrected by CRU using documented methods									
-									
-									
-Source code table									
-									
-source_code	" ""source_name"""	" ""source_region"""	" ""source_desc"""	" ""source_ref"""	" ""source_link"""	" ""hom_cat"""	" ""hom_start"""	" ""hom_end"""	" ""hom_comment"""
+source_code	source_name	source_region	source_desc	source_ref	source_link	hom_cat	hom_start	hom_end	hom_comment
 0	Not known		Not known			HOM00			
 1	University of Melbourne thesis	S E Australia	Early Australian series adjusted to be compatible  with BoM's ACORN 2 reference climate series		http://www.bom.gov.au/jshess/docs/2012/ashcroft.pdf	HOM03	1910	Ongoing	Homogenized? Partial ; Not all later subsets from ACORN - thus not all homogenized!
 10	WWR/CRU	Global	1980s global temperature database construction by the Climatic Research Unit - many under new Scodes	"Jones (1994), Jones & Moberg (2003) and Brohan et al. (2006); homogeneity of sites assessed in Jones et al. (1985, 1986)."	TR022 and TR027 - publications at http://www.cru.uea.ac.uk/st/ - also held by CRU members	###############			Homogenized? Yes # ; Mostly by comparison with reference series - documentation produced
