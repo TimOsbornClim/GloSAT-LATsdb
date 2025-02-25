@@ -8,7 +8,7 @@ It is a database of monthly air temperatures over land from weather stations use
 
 This station database was developed from the CRUTEM5 station database used for the gridded CRUTEM5 and HadCRUT5 global temperature datasets (see: [https://crudata.uea.ac.uk/cru/data/temperature/](https://crudata.uea.ac.uk/cru/data/temperature/)) but extended back to 1781, with the inclusion of additional data acquisitions, the application of an adjustment to reduce biases due to changing thermometer screens, and with the use of local expectation kriging to help estimate normals where a station has incomplete data during the 1961-1990 baseline.
 
-## Data Source Code information (including Homogeneity Indicators)
+## Data Source Code information (including Homogenisation Indicators)
 
 #### Data Source Codes
 
@@ -27,11 +27,11 @@ This table corresponds to the two-digit source codes used in CRUTEM5 and in some
 - CSV format [source-codes/crutem2digit_sourcecodes.csv](source-codes/crutem2digit_sourcecodes.csv)
 - TSV format [source-codes/crutem2digit_sourcecodes.tsv](source-codes/crutem2digit_sourcecodes.tsv)
 
-#### Homogeneity Indicators
+#### Homogenisation Indicators
 
-The Data Source Code table includes a Homogeneity Indicator for each data source.
+The Data Source Code table includes a Homogenisation Indicator for each data source.
 
-For each data source, we conducted a broad-brush assessment of whether we judge that the data provider carried out a homogeneity assessment (and possibly applied adjustments to reduce inhomogeneities). Based on this, we assigned one of five homogeneity indicators to each data source:
+For each data source, we conducted a broad-brush assessment of whether we judge that the data provider carried out a homogeneity assessment (and possibly applied adjustments to reduce inhomogeneities). Based on this, we assigned one of five Homogenisation Indicators to each data source:
 
 <dl>
  <dt>HOM00</dt>
@@ -47,8 +47,8 @@ For each data source, we conducted a broad-brush assessment of whether we judge 
 </dl>
 
 > [!CAUTION]
-> These indicators need to be treated with caution for various reasons: (i) we have not assessed the homogeneity of the data, we only considered what the data provider is likely to have done; (ii) only one homogeneity indicator is applied to each data source code to give a broad-brush indication, so it is possible that the data provider homogenised some but not all of their stations; (iii) some stations may be formed by combining data from multiple sources/providers but only one can be indicated; (iv) homogenisation may have been carried out only for a subset time period and data outside that period may not have been homogeneity assessed/adjusted. 
+> These indicators need to be treated with caution for various reasons: (i) we have not assessed the homogeneity of the data, we only considered what the data provider is likely to have done; (ii) only one homogenisation indicator is applied to each data source code to give a broad-brush indication, so it is possible that the data provider homogenised some but not all of their stations; (iii) some stations may be formed by combining data from multiple sources/providers but only one can be indicated; (iv) homogenisation may have been carried out only for a subset time period and data outside that period may not have been homogeneity assessed/adjusted. 
 
-Alongside the homogeneity indicator, the approximate start and end years of the period to which homogenisation may have been applied (in some cases this may be unknown or too complex to express as a simple start and end year) and any further comments are provided.
+Alongside the Homogenisation Indicator, the approximate start and end years of the period to which homogenisation may have been applied (in some cases this may be unknown or too complex to express as a simple start and end year) and any further comments are provided.
 
 

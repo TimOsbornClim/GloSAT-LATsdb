@@ -18,12 +18,12 @@ In each case, the columns are:
  - Description of the data source
  - Reference for the data source (where available)
  - URL or similar link for the data source (where available, note that we cannot guarantee that third parties will maintain their URLs or sites)
- - Homogeneity indicator (a broad-brush judgement of whether the data provider carried out a homogeneity assessment)
+ - Homogenisation indicator (a broad-brush judgement of whether the data provider carried out a homogeneity assessment)
  - Start year of data for which homogenization may have been undertaken (if this is known)
  - End year of data for which homogenization may have been undertaken (if this is known)
  - Further comments about any homogenization that may have been applied to the data
  
-For an explanation of the Homogeneity Indicators, see the [main README.md](../README.md).
+For an explanation of the Homogenisation Indicators, see the [main README.md](../README.md).
 
 
 
